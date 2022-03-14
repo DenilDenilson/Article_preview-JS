@@ -1,7 +1,11 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
-    "./**/*.{html,js}",
+    // "./**/*.{html,js}",
     "./src/**/*.{html,js}",
+    //"./index.html",
+    "./*.{html, js}",
   ],
   theme: {
     screen: {
@@ -17,7 +21,7 @@ module.exports = {
       },
 
       fontFamily: {
-        'Manrope': ['Manrope','sans-serif'],
+        'sans': ['Manrope', ...defaultTheme.fontFamily.sans],
       },
 
     },
