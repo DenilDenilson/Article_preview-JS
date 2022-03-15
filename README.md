@@ -1,5 +1,5 @@
-## Sunnyside landing page
-This is a solution to the FAQ accordion card page challenge on Frontend Mentor.
+## Article__preview--JS
+This is a solution to the Article_preview--JS page challenge on Frontend Mentor.
 
 # Table of content
 - [Table of content](#table-of-content)
@@ -14,12 +14,12 @@ This is a solution to the FAQ accordion card page challenge on Frontend Mentor.
 
 # Overview
 ### Mobile
-![](https://i.imgur.com/4mRszWE.png)
+![](https://i.imgur.com/JMKxVL5.png)
 ### Desktop
-![](https://i.imgur.com/8xOyIQ8.png)
+![](https://i.imgur.com/RZ5luWk.png)
 ### Links
-- Solution URL: [https://github.com/DenilDenilson/FAQ-accordion-card](https://github.com/DenilDenilson/sunnySideLandingPage "Repositorio")
-- Live site URL: [https://denildenilson.github.io/FAQ-accordion-card/public/index.html](https://denildenilson.github.io/sunnySideLandingPage/public/index.html "Live site URL")
+- Solution URL: [--](-- "Repositorio")
+- Live site URL: [--](-- "Live site URL")
 
 
 # My process
