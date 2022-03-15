@@ -18,8 +18,8 @@ This is a solution to the Article_preview--JS page challenge on Frontend Mentor.
 ### Desktop
 ![](https://i.imgur.com/RZ5luWk.png)
 ### Links
-- Solution URL: [--](-- "Repositorio")
-- Live site URL: [--](-- "Live site URL")
+- Solution URL: [https://github.com/DenilDenilson/Article_preview-JS](https://github.com/DenilDenilson/Article_preview-JS "Repositorio")
+- Live site URL: [https://denildenilson.github.io/Article_preview-JS/](https://denildenilson.github.io/Article_preview-JS/ "Live site URL")
 
 
 # My process
