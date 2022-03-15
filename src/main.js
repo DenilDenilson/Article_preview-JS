@@ -8,6 +8,7 @@ const iconShareAfter = document.querySelector('#icon_share-after');
 iconShareBefore.addEventListener('click', () => {
     footerMovil.classList.toggle('left-[-85vw]');
     footerMovil.classList.toggle('left-0');
+    footerMovil.classList.toggle('xl:visible');
 });
 
 iconShareAfter.addEventListener('click', () => {
