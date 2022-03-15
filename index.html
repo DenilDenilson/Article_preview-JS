@@ -20,31 +20,33 @@
     <title>Document</title>
 </head>
 <body class="grid place-content-center h-screen w-screen bg-Grayish-Blue">
-    <div class="w-[85vw] h-auto bg-Light-Grayish-Blue overflow-hidden rounded-lg">
+    <div class="w-[85vw] relative h-auto bg-Light-Grayish-Blue  rounded-lg overflow-hidden">
         <img class="w-full min-h-[255px] max-h-[420px]" src="./images/drawers.jpg" alt="escena promocional">
         <main class="pt-8 px-8">
             <h1 class="text-Very-Dark-Grayish-Blue font-bold pb-2">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
             <p class="text-Desaturated-Dark-Blue font-medium text-[13px]">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room fell complete.</p>
         </main>
-        <footer class="flex relative items-center pt-6 pb-4 px-8">
+        <footer class="flex items-center pt-6 pb-4 px-8">
             <img class="w-12 rounded-full" src="./images/avatar-michelle.jpg" alt="Avatar's Michelle">
             <section class="pl-2">
                 <h3 class="text-[13px] font-bold text-Very-Dark-Grayish-Blue">Michelle Appleton</h3>
                 <p class="text-[13px] font-medium text-Desaturated-Dark-Blue">28 Jun 2020</p>
             </section>
             <div class="w-6 h-6 grid place-content-center rounded-full bg-Grayish-Blue ml-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" id="icon_share-before"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
             </div>
 
-            <div class="absolute invisible">
-                <p>S H A R E</p>
+            <div class="absolute bg-Very-Dark-Grayish-Blue flex pt-6 pb-4 px-8 items-center w-[85vw] left-[-85vw] mx-auto bottom-0 rounded-bl-lg rounded-br-lg transition-{left} transition-{right} ease-in-out duration-500" id="footer_movil">
+                <p class="text-Light-Grayish-Blue font-medium text-[13px]tracking-widest pr-4">S H A R E</p>
                 <!-- <i class="fa-brands fa-facebook-square"></i> -->
                 <!-- <i class="fa-brands fa-twitter"></i> -->
                 <!-- <i class="fa-brands fa-pinterest"></i> -->
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-twitter"></ion-icon>
-                <ion-icon name="logo-pinterest"></ion-icon>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+                <ion-icon class="text-white text-2xl px-2" name="logo-facebook"></ion-icon>
+                <ion-icon class="text-white text-2xl px-2" name="logo-twitter"></ion-icon>
+                <ion-icon class="text-white text-2xl px-2" name="logo-pinterest"></ion-icon>
+                <div class="w-6 h-6 grid place-content-center rounded-full bg-Grayish-Blue ml-auto mb-[12px]">
+                    <svg class="text-white" id="icon_share-after" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#ECF2F8" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+                </div>
             </div>
         </footer>
     </div>
